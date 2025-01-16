@@ -12,16 +12,3 @@ Programa desenvolvido em JAVA com 18 extratores (ANEXO referência "descritores.
 Para execução digitar no terminal "java -jar FeaturesExtractions_Bressan_V1_0_3.jar"
 
 -------------------------------------------------------------------------------------------
-Anotações do grupo
-
-Bases de Dados:
-
-	CIFAR100 - 10000 imagens: https://www.kaggle.com/datasets/melikechan/cifar100
-	100 Sports Image Classification - 500 imagens: https://www.kaggle.com/datasets/gpiosenka/sports-classification/discussion?sort=hotness
-	Cards Image Dataset-Classification - 265 imagens: https://www.kaggle.com/datasets/gpiosenka/cards-image-datasetclassification
-
-Extratores selecionados:
-
-	F1 - AutoColorCorrelogram [Huang et al. 1997] 	Cor 		768
-	F4 - FCTH [Chatzichristofis and Boutalis 2008b] Cor e Textura 	192
-	F14 - PHOG [Bosch et al. 2007] 			Textura 	40	
