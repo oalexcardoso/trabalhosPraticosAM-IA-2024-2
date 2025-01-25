@@ -1,0 +1,459 @@
+Arquivo: CardsPHOG.arff
+
+ Tamanho do conjuntos: Treino:(212, 40) e Teste:(53, 40) 
+ --------------------------------------------
+ MinMaxScaler:
+ Acuracia obtida com o Gaussian Naive Bayes no Conjunto de Treinamento: 0.69
+ Acuracia obtida com o Gaussian Naive Bayes no Conjunto de Teste: 0.04
+ Matriz de Confusão:[[0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 1 0 ... 0 0 0]
+ ...
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]]
+ Precision: 0.03061
+ Recall: 0.04082
+ F1-score: 0.03401
+ (Tempo de execucao: 0.00972)
+ 
+ Acuracia obtida com o Logistic Regression no Conjunto de Treinamento: 0.37
+ Acuracia obtida com o Logistic Regression no Conjunto de Teste: 0.09
+ Matriz de Confusão:[[0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 1 ... 0 0 0]
+ ...
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]]
+ Precision: 0.07624
+ Recall: 0.10638
+ F1-score: 0.08298
+ (Tempo de execucao: 0.00504)
+ 
+ Acuracia obtida com o Decision Tree no Conjunto de Treinamento: 1.00
+ Acuracia obtida com o Decision Tree no Conjunto de Teste: 0.08
+ Matriz de Confusão:[[0 0 0 ... 0 0 0]
+ [0 0 0 ... 1 0 0]
+ [0 0 0 ... 0 0 0]
+ ...
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 1 0 0]]
+ Precision: 0.04078
+ Recall: 0.06383
+ F1-score: 0.04184
+ (Tempo de execucao: 0.00508)
+ 
+ Acuracia obtida com o K-Nearest Neighbors no Conjunto de Treinamento: 0.45
+ Acuracia obtida com o K-Nearest Neighbors no Conjunto de Teste: 0.13
+ Matriz de Confusão:[[1 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 1 0 ... 0 0 0]
+ ...
+ [1 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 1 0]]
+ Precision: 0.07639
+ Recall: 0.12302
+ F1-score: 0.08492
+ (Tempo de execucao: 0.00903)
+ 
+ Acuracia obtida com o Linear Discriminant Analysis no Conjunto de Treinamento: 0.76
+ Acuracia obtida com o Linear Discriminant Analysis no Conjunto de Teste: 0.17
+ Matriz de Confusão:[[0 0 0 ... 0 0 0]
+ [0 1 0 ... 0 0 0]
+ [0 0 1 ... 0 0 0]
+ ...
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 1 0]]
+ Precision: 0.11255
+ Recall: 0.18182
+ F1-score: 0.13131
+ (Tempo de execucao: 0.00722)
+ 
+ Acuracia obtida com o Support Vector Machine no Conjunto de Treinamento: 0.42
+ Acuracia obtida com o Support Vector Machine no Conjunto de Teste: 0.08
+ Matriz de Confusão:[[0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 1 0 ... 0 0 0]
+ ...
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 1 0 0]]
+ Precision: 0.05782
+ Recall: 0.08163
+ F1-score: 0.06463
+ (Tempo de execucao: 0.01793)
+ 
+ Acuracia obtida com o RandomForest no Conjunto de Treinamento: 1.00
+ Acuracia obtida com o RandomForest no Conjunto de Teste: 0.11
+ Matriz de Confusão:[[0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 1 ... 0 0 0]
+ ...
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]]
+ Precision: 0.10638
+ Recall: 0.11348
+ F1-score: 0.10284
+ (Tempo de execucao: 0.03149)
+ 
+ Acuracia obtida com o Neural Net no Conjunto de Treinamento: 0.04
+ Acuracia obtida com o Neural Net no Conjunto de Teste: 0.00
+ Matriz de Confusão:[[0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ ...
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]]
+ Precision: 0.00000
+ Recall: 0.00000
+ F1-score: 0.00000
+ (Tempo de execucao: 0.00644)
+ 
+ --------------------------------------------
+ StandardScaler:
+ Acuracia obtida com o Gaussian Naive Bayes no Conjunto de Treinamento: 0.69
+ Acuracia obtida com o Gaussian Naive Bayes no Conjunto de Teste: 0.04
+ Matriz de Confusão:[[0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 1 0 ... 0 0 0]
+ ...
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]]
+ Precision: 0.03061
+ Recall: 0.04082
+ F1-score: 0.03401
+ (Tempo de execucao: 0.01876)
+ 
+ Acuracia obtida com o Logistic Regression no Conjunto de Treinamento: 0.87
+ Acuracia obtida com o Logistic Regression no Conjunto de Teste: 0.15
+ Matriz de Confusão:[[1 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 1 ... 0 0 0]
+ ...
+ [0 0 1 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 1 0]]
+ Precision: 0.12681
+ Recall: 0.15942
+ F1-score: 0.13043
+ (Tempo de execucao: 0.01034)
+ 
+ Acuracia obtida com o Decision Tree no Conjunto de Treinamento: 1.00
+ Acuracia obtida com o Decision Tree no Conjunto de Teste: 0.06
+ Matriz de Confusão:[[0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ ...
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 1 ... 0 0 0]]
+ Precision: 0.03804
+ Recall: 0.05435
+ F1-score: 0.04130
+ (Tempo de execucao: 0.00825)
+ 
+ Acuracia obtida com o K-Nearest Neighbors no Conjunto de Treinamento: 0.45
+ Acuracia obtida com o K-Nearest Neighbors no Conjunto de Teste: 0.13
+ Matriz de Confusão:[[1 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 1 0 ... 0 0 0]
+ ...
+ [1 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 1 0]]
+ Precision: 0.07260
+ Recall: 0.11742
+ F1-score: 0.08065
+ (Tempo de execucao: 0.00760)
+ 
+ Acuracia obtida com o Linear Discriminant Analysis no Conjunto de Treinamento: 0.76
+ Acuracia obtida com o Linear Discriminant Analysis no Conjunto de Teste: 0.17
+ Matriz de Confusão:[[0 0 0 ... 0 0 0]
+ [0 1 0 ... 0 0 0]
+ [0 0 1 ... 0 0 0]
+ ...
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 1 0]]
+ Precision: 0.11255
+ Recall: 0.18182
+ F1-score: 0.13131
+ (Tempo de execucao: 0.00612)
+ 
+ Acuracia obtida com o Support Vector Machine no Conjunto de Treinamento: 0.49
+ Acuracia obtida com o Support Vector Machine no Conjunto de Teste: 0.08
+ Matriz de Confusão:[[0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 1 0 ... 0 0 0]
+ ...
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 1 0 0]]
+ Precision: 0.05903
+ Recall: 0.08333
+ F1-score: 0.06597
+ (Tempo de execucao: 0.01938)
+ 
+ Acuracia obtida com o RandomForest no Conjunto de Treinamento: 1.00
+ Acuracia obtida com o RandomForest no Conjunto de Teste: 0.09
+ Matriz de Confusão:[[0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 1 0 ... 0 0 0]
+ ...
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 1 0 0]]
+ Precision: 0.06738
+ Recall: 0.10638
+ F1-score: 0.07801
+ (Tempo de execucao: 0.02933)
+ 
+ Acuracia obtida com o Neural Net no Conjunto de Treinamento: 0.38
+ Acuracia obtida com o Neural Net no Conjunto de Teste: 0.08
+ Matriz de Confusão:[[0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ ...
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]]
+ Precision: 0.04082
+ Recall: 0.07143
+ F1-score: 0.04694
+ (Tempo de execucao: 0.00608)
+ 
+ --------------------------------------------
+ MaxAbsScaler:
+ Acuracia obtida com o Gaussian Naive Bayes no Conjunto de Treinamento: 0.69
+ Acuracia obtida com o Gaussian Naive Bayes no Conjunto de Teste: 0.04
+ Matriz de Confusão:[[0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 1 0 ... 0 0 0]
+ ...
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]]
+ Precision: 0.03061
+ Recall: 0.04082
+ F1-score: 0.03401
+ (Tempo de execucao: 0.00990)
+ 
+ Acuracia obtida com o Logistic Regression no Conjunto de Treinamento: 0.48
+ Acuracia obtida com o Logistic Regression no Conjunto de Teste: 0.11
+ Matriz de Confusão:[[0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 1 ... 0 0 0]
+ ...
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]]
+ Precision: 0.07465
+ Recall: 0.12500
+ F1-score: 0.08819
+ (Tempo de execucao: 0.00583)
+ 
+ Acuracia obtida com o Decision Tree no Conjunto de Treinamento: 1.00
+ Acuracia obtida com o Decision Tree no Conjunto de Teste: 0.06
+ Matriz de Confusão:[[0 0 0 ... 0 0 1]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ ...
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 1 0 0]]
+ Precision: 0.02837
+ Recall: 0.05319
+ F1-score: 0.03546
+ (Tempo de execucao: 0.00568)
+ 
+ Acuracia obtida com o K-Nearest Neighbors no Conjunto de Treinamento: 0.44
+ Acuracia obtida com o K-Nearest Neighbors no Conjunto de Teste: 0.13
+ Matriz de Confusão:[[1 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 1 0 ... 0 0 0]
+ ...
+ [1 0 1 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 1 0]]
+ Precision: 0.08666
+ Recall: 0.12016
+ F1-score: 0.08579
+ (Tempo de execucao: 0.00828)
+ 
+ Acuracia obtida com o Linear Discriminant Analysis no Conjunto de Treinamento: 0.76
+ Acuracia obtida com o Linear Discriminant Analysis no Conjunto de Teste: 0.17
+ Matriz de Confusão:[[0 0 0 ... 0 0 0]
+ [0 1 0 ... 0 0 0]
+ [0 0 1 ... 0 0 0]
+ ...
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 1 0]]
+ Precision: 0.11255
+ Recall: 0.18182
+ F1-score: 0.13131
+ (Tempo de execucao: 0.00835)
+ 
+ Acuracia obtida com o Support Vector Machine no Conjunto de Treinamento: 0.47
+ Acuracia obtida com o Support Vector Machine no Conjunto de Teste: 0.08
+ Matriz de Confusão:[[0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 1 0 ... 0 0 0]
+ ...
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 1 0 0]]
+ Precision: 0.05782
+ Recall: 0.08163
+ F1-score: 0.06463
+ (Tempo de execucao: 0.01733)
+ 
+ Acuracia obtida com o RandomForest no Conjunto de Treinamento: 1.00
+ Acuracia obtida com o RandomForest no Conjunto de Teste: 0.11
+ Matriz de Confusão:[[0 0 0 ... 0 0 0]
+ [0 1 0 ... 0 0 0]
+ [0 0 1 ... 0 0 0]
+ ...
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 1 0 0]]
+ Precision: 0.08333
+ Recall: 0.13043
+ F1-score: 0.09783
+ (Tempo de execucao: 0.03322)
+ 
+ Acuracia obtida com o Neural Net no Conjunto de Treinamento: 0.12
+ Acuracia obtida com o Neural Net no Conjunto de Teste: 0.04
+ Matriz de Confusão:[[0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 1 0 ... 0 0 0]
+ ...
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]]
+ Precision: 0.00833
+ Recall: 0.05000
+ F1-score: 0.01429
+ (Tempo de execucao: 0.00712)
+ 
+ --------------------------------------------
+ RobustScaler:
+ Acuracia obtida com o Gaussian Naive Bayes no Conjunto de Treinamento: 0.69
+ Acuracia obtida com o Gaussian Naive Bayes no Conjunto de Teste: 0.04
+ Matriz de Confusão:[[0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 1 0 ... 0 0 0]
+ ...
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]]
+ Precision: 0.03061
+ Recall: 0.04082
+ F1-score: 0.03401
+ (Tempo de execucao: 0.01396)
+ 
+ Acuracia obtida com o Logistic Regression no Conjunto de Treinamento: 0.82
+ Acuracia obtida com o Logistic Regression no Conjunto de Teste: 0.15
+ Matriz de Confusão:[[1 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 1 ... 0 0 0]
+ ...
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]]
+ Precision: 0.12153
+ Recall: 0.15278
+ F1-score: 0.12500
+ (Tempo de execucao: 0.00788)
+ 
+ Acuracia obtida com o Decision Tree no Conjunto de Treinamento: 1.00
+ Acuracia obtida com o Decision Tree no Conjunto de Teste: 0.08
+ Matriz de Confusão:[[0 0 0 ... 0 0 0]
+ [0 0 0 ... 1 0 0]
+ [0 0 0 ... 0 0 0]
+ ...
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 1 0 0]]
+ Precision: 0.05072
+ Recall: 0.06522
+ F1-score: 0.05435
+ (Tempo de execucao: 0.00752)
+ 
+ Acuracia obtida com o K-Nearest Neighbors no Conjunto de Treinamento: 0.45
+ Acuracia obtida com o K-Nearest Neighbors no Conjunto de Teste: 0.15
+ Matriz de Confusão:[[2 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 1 0 ... 0 0 0]
+ ...
+ [1 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 1 0]]
+ Precision: 0.09173
+ Recall: 0.12791
+ F1-score: 0.09880
+ (Tempo de execucao: 0.01178)
+ 
+ Acuracia obtida com o Linear Discriminant Analysis no Conjunto de Treinamento: 0.76
+ Acuracia obtida com o Linear Discriminant Analysis no Conjunto de Teste: 0.17
+ Matriz de Confusão:[[0 0 0 ... 0 0 0]
+ [0 1 0 ... 0 0 0]
+ [0 0 1 ... 0 0 0]
+ ...
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 1 0]]
+ Precision: 0.11255
+ Recall: 0.18182
+ F1-score: 0.13131
+ (Tempo de execucao: 0.00775)
+ 
+ Acuracia obtida com o Support Vector Machine no Conjunto de Treinamento: 0.47
+ Acuracia obtida com o Support Vector Machine no Conjunto de Teste: 0.09
+ Matriz de Confusão:[[0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 1 ... 0 0 0]
+ ...
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 1 0 0]]
+ Precision: 0.06597
+ Recall: 0.10417
+ F1-score: 0.07639
+ (Tempo de execucao: 0.02214)
+ 
+ Acuracia obtida com o RandomForest no Conjunto de Treinamento: 1.00
+ Acuracia obtida com o RandomForest no Conjunto de Teste: 0.11
+ Matriz de Confusão:[[0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 1 0 ... 0 0 0]
+ ...
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 1 0 0]]
+ Precision: 0.07872
+ Recall: 0.11702
+ F1-score: 0.09119
+ (Tempo de execucao: 0.03330)
+ 
+ Acuracia obtida com o Neural Net no Conjunto de Treinamento: 0.34
+ Acuracia obtida com o Neural Net no Conjunto de Teste: 0.08
+ Matriz de Confusão:[[0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ ...
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]]
+ Precision: 0.03972
+ Recall: 0.08511
+ F1-score: 0.04965
+ (Tempo de execucao: 0.00598)
+ 
